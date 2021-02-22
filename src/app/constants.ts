@@ -4,9 +4,9 @@ import { resolveVariantColor } from '@/modules/core/theming/colors';
 export const NRN_DEFAULT_SERVICE_LABEL = process.env.NEXT_PUBLIC_APP_STAGE === 'production' ? 'Next Right Now' : `[${process.env.NEXT_PUBLIC_APP_STAGE === 'staging' ? 'Preview' : 'Dev'}] Next Right Now`;
 
 /**
- * Co-branding logo displayed in the footer ("powered by Unly")
+ * Co-branding logo displayed in the footer ("powered by Simulacre")
  */
-export const NRN_CO_BRANDING_LOGO_URL = '/static/images/LOGO_Powered_by_UNLY_BLACK_BLUE.svg';
+export const NRN_CO_BRANDING_LOGO_URL = '/static/images/monLogo.svg';
 
 /**
  * Fallback fonts used until our own fonts have been loaded by the browser.
